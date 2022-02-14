@@ -62,6 +62,7 @@ https://github.com/maximtrp/spectrumLED#configuration
   - insert bluetooth address of your raspberry device in Bluetooth_Client/config.py
   - run Bluetooth_Client/main.py
   - if worked correctly, you should see something like this: 
+  
   ![image description](images/client-interface.webp)
 
 - Server (Raspberry):
