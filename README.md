@@ -1,6 +1,13 @@
 
+# Audio Visualizer
+![image description](images/audio-visualizer.jpg)
+
 ## About
-Simple audio visualizer working with the bluetooth.
+Simple audio visualizer based on Raspberry PI, which can be connected to PC via bluetooth and stream music from YouTube.
+
+Video presentation of working device:
+[![YT video](https://img.youtube.com/vi/B6UqmdH38Mc/0.jpg)](https://www.youtube.com/watch?v=B6UqmdH38Mc&feature=youtu.be)
+
 ## Build Setup
 - Hardware:
   - Raspberry Pi 3 (or other Raspberry PI with bluetooth module)
@@ -43,7 +50,11 @@ Simple audio visualizer working with the bluetooth.
 | SDA     | pin 3         | SDA          |
 
 ## Configuration
-
+1. I recommend you to read this to avoid problems with audio configuration on your Raspberry:
+https://github.com/maximtrp/spectrumLED#configuration
+2. Enable SPI and PCM devices in Raspberry Pi OS.
+3. Install required python packages.
+4. Remember to change bluetooth addres to your own in Bluetooth_Client/config.py.
 ## How to run
 - Client (PC):
   - install all required packages
