@@ -6,6 +6,7 @@
 Simple audio visualizer based on Raspberry PI, which can be connected to PC via bluetooth and stream music from YouTube.
 
 Video presentation of working device:
+
 [![YT video](https://img.youtube.com/vi/B6UqmdH38Mc/0.jpg)](https://www.youtube.com/watch?v=B6UqmdH38Mc&feature=youtu.be)
 
 ## Build Setup
