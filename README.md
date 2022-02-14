@@ -61,11 +61,12 @@ https://github.com/maximtrp/spectrumLED#configuration
   - install all required packages
   - insert bluetooth address of your raspberry device in Bluetooth_Client/config.py
   - run Bluetooth_Client/main.py
+  - if worked correctly, you should see something like this: 
+  ![image description](images/client-interface.webp)
 
 - Server (Raspberry):
   - install all required packages
   - run Bluetooth_Server/main.py
-
 ## Credits
 Audio processing function (Bluetooth_Server/led_matrix.py) is not mine and was entirely written by:
 https://github.com/maximtrp/spectrumLED
